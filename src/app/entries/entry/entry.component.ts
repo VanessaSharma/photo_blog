@@ -9,5 +9,10 @@ import { Component } from '@angular/core';
 export class EntryComponent{
     title: string = "My first photo";
     photo: string = 'http://placehold.it/800x500?text=Angular Basics';
-    description: string = "A description of my first photo."
+    description: string = "A description of my first photo.";
+    comments: any[] = [
+        {name: "John", comment: "A comment"},
+        {name: "Jimmy", comment: "A comment"},
+        {name: "James", comment: "A comment"}
+    ]
 }
